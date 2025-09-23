@@ -8,7 +8,8 @@ if ( len(s)!=0):
             count[char]=count[char] + 1
         else:
             count[char]=1
-    for char in count:
-        print(f"{char} appears {count[char]} times ")
-else:
-    print(" string is empty")
+    for i in range
+#     for char in count:
+#         print(f"{char} appears {count[char]} times ")
+# else:
+#     print(" string is empty")
