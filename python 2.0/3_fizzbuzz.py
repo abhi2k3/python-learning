@@ -5,8 +5,8 @@ for i in range(1,100,1):
         st += "fizz"
     if i % 5 == 0:
         st += "buzz"
-    if st:
-        print(st)
-    else:
-        print(i)
+    #print(st)
+    if not st:
+        st=i
+    print(st)
     

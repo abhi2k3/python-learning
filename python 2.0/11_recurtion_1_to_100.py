@@ -8,3 +8,10 @@ def num(n):
 
 n = 100
 num(n)
+
+def rprint(x):
+    if x==0:
+        print(0)
+    else:
+        rprint(x-1)
+        print(x)

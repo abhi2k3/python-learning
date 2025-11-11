@@ -4,9 +4,8 @@ def fizzbuzz(i):
         st += "fizz"
     if i % 5 == 0:
         st += "buzz"
-    if st:
-        print(st)
-    else:
+    print(st)
+    if not st:
         print(i)
 for i in range(1,101,1):
     fizzbuzz(i)
